@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title class="glyphicon glyphicon-tasks">Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lobster|Merriweather:700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+		<div class="jumbotron" >
+				<h1><center><strong><span class="glyphicon glyphicon-king" aria-hidden="true"></span> Color Game</center></h1></strong>
+				<h2><center>Identify this Color <br ><span id="select">rgb(0 , 0 , 0)</span></center></h2>
+		</div>
+	
+		<div class="stripe">
+			<button id="PlayAgain">New Colors</button>
+			<button id="reset">Reset</button> 
+
+		    <span id="message"> </span>
+			<button class="mode " value="3">Easy</button>
+			<button  class="mode active selected" aria-pressed="true" value="6" >Hard</button>
+			<button class="mode " value="9">Pro</button>
+		</div>
+<div class="stripe "  >
+		<span>Correct Attempts :<span id="win">0</span></span>
+		<span id="Brk"> </span>
+		<span>Incorrect Attempts :<span id="lose">0</span></span>
+	</div>
+
+	<div id="container" >
+	
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+	
+		<script type="text/javascript" src="colorgame.js"></script>
+
+</body>
+</html>

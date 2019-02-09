@@ -1,0 +1,106 @@
+body{
+	background-color: #252525 !important;
+	color:white;
+	margin: 0;
+	font-family: 'Merriweather', serif !important;
+	text-transform: uppercase;
+}
+
+.square{
+	width: 30%;
+	margin:1.66%;
+	float: left;
+	padding-bottom: 30%;
+	background-color: purple;
+	border-radius: 15%;
+	transition: background 0.7s;
+	-webkit-transition: background 0.7s;
+	-moz-transition: background 0.7s;
+
+
+}
+#container
+{   margin-left:auto;
+	margin: 0 auto ;
+	max-width:600px;
+	text-align: center;
+	height: auto;
+	
+
+}
+#Brk{
+	display: inline-block;
+	width: 11%;
+	font-size: 16px !important;
+	line-height: 1.1 !important;
+	font-weight: 750 !important;
+
+}
+
+#message{
+	display: inline-block;
+	width: 16%;
+	font-size: 16px !important;
+	line-height: 1.1 !important;
+	font-weight: 750 !important;
+
+}
+
+.jumbotron{
+
+    color: #151918 !important;
+    background: linear-gradient(-31deg, #ea400d, #1237fc,#11e217cc, #23bcd5bd, #642a99fa);
+     
+
+
+
+}
+div{
+	color:white;
+}
+.stripe{
+	color: #252525;;
+	height:35px;
+	background-color:rgba(255, 255, 255, 0.51);
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 18px !important;
+	line-height: 1.18 !important;
+	margin:10px 0;
+	font-weight: 700;
+
+}
+button{
+	height:35px;
+	border: none;
+	font-weight: 700;
+	text-transform: uppercase !important;
+	/*background-color:rgba(255, 255, 255, 0.51);*/
+	background: none;
+	font-size: 18px !important;
+	line-height: 1.18 !important;
+	font-weight: 750 !important;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	margin:auto 0;
+	outline: none;
+
+}
+button:hover {
+	    background: #192722;
+    color: #949494;
+	/*transition: all 0.4s;*/
+}
+.selected{
+	    background: #192722;
+    color: #949494;
+}
+h1{
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 75px !important;
+}
+h2{
+	font-size: 45px !important;
+}
