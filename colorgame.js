@@ -135,7 +135,7 @@ function newboard(){
         
     }
     // jumbotron.style.backgroundColor="pink";
-    PlayAgain.textContent="New Color Set";
+    PlayAgain.textContent="New Colors";
     message.textContent="";
     select.textContent=selected;
     console.log(selected);
